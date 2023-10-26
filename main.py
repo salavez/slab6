@@ -16,7 +16,7 @@ def menu_options():
     print('2. Decode')
     print('3. Quit')
 # function for decoding password
-def decode(password):
+def decode(password):  # Pulled code and merged
     # make string
     decoded_password = ''
     # for loop to make integer, subtract 3, make string, and add to empty string
