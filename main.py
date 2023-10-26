@@ -15,6 +15,17 @@ def menu_options():
     print('1. Encode')
     print('2. Decode')
     print('3. Quit')
+# function for decoding password
+def decode(password):
+    # make string
+    decoded_password = ''
+    # for loop to make integer, subtract 3, make string, and add to empty string
+    for i in password:
+        i = int(i)
+        i -= 3
+        i = str(i)
+        decoded_password += i
+    return decoded_password
 
 
 # Main function
